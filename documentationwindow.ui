@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>documentationWindow</class>
+ <widget class="QMainWindow" name="documentationWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="helpDoc">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.875pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:288%;&quot;&gt;&lt;a name=&quot;docs-internal-guid-09ef972b-7fff-4f23-75fb-ae12e45c4d35&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;T&lt;/span&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;he opcode instructions will be placed in the first two digits. The last two digits are used to specify which location in memory the opcode instruction will be performed on.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;Opcodes&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;I/O Operations&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+10 READ		Read a word from the user and&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			store in a location in memory&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+11 WRITE		Write a word from a location in&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			memory to the output screen&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;Load/Store Operations&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+20 LOAD		Load a word from a location in&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			memory into the accumulator&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+21 STORE	Store a word from the accumulator&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			to a location in memory&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;Arithmetic Operations&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+30 ADD		Add a word from a location in memory&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			to the word in the accumulator, the&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			result will be left in the accumulator.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+31 SUBTRACT	Subtract a word from a location in&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			memory from the word in the&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			accumulator, the result will be&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			left in the accumulator.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+32 DIVIDE	Divide the word in the accumulator by&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			a word in a location in memory, the&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			result will be left in the accumulator.	&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+33 MULTIPLY	Multiply a word from a location in&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			memory to the word stored in the&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			accumulator, the result will be&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			left in the accumulator.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;Control Operations	&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+40 BRANCH	Branch to a location in memory&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+41 BRANCHNEG	Branch to a location in memory&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			if the accumulator is negative&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+42 BRANCHZERO	Branch to a location in memory&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;			if the accumulator is zero&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:165.6%;&quot;&gt;&lt;span style=&quot; font-family:'Arial'; font-size:11pt; color:#000000; background-color:transparent;&quot;&gt;+43 HALT		Pause the Program&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
